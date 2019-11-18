@@ -11,7 +11,7 @@ import tk.mybatis.mapper.entity.Example;
 import java.util.List;
 
 /**
- * @program: easy-mall
+ * @program: easy-mgb
  * @description: 品牌管理service
  * @author: Wang Long
  * @create: 2019-11-15

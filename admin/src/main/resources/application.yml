@@ -26,8 +26,21 @@ redis:
     expire:
       authCode: 120 # 验证码超期时间
 
+jwt:
+  tokenHeader: Authorization #JWT存储的请求头
+  tokenHead: Bearer  #JWT负载中拿到开头
+  secret: easy-mall-admin-secret #JWT加解密使用的密钥
+  expiration: 60 #JWT的超期限时间(60*60*24)
 
 
 
 
+
+
+########################################################
+###配置打印sql
+########################################################
+logging:
+  level:
+    com.leapstack.wanglong.mall.dao.mapper: debug
 

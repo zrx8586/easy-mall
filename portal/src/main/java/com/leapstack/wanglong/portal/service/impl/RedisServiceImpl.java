@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @program: easy-mall
+ * @program: easy-mgb
  * @description:
  * @author: Wang Long
  * @create: 2019-11-16

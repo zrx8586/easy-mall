@@ -10,7 +10,7 @@ import org.springframework.util.StringUtils;
 import java.util.Random;
 
 /**
- * @program: easy-mall
+ * @program: easy-mgb
  * @description: 会员管理实现类
  * @author: Wang Long
  * @create: 2019-11-16

@@ -34,15 +34,16 @@
         <aliyun-oss.version>2.5.0</aliyun-oss.version>
         <logstash-logback.version>4.8</logstash-logback.version>
         <mall-common.version>0.0.1-SNAPSHOT</mall-common.version>
-        <mall-mbg.version>1.0-SNAPSHOT</mall-mbg.version>
-        <mall-security.version>1.0-SNAPSHOT</mall-security.version>
+        <mbg.version>0.0.1-SNAPSHOT</mbg.version>
+        <mall-security.version>0.0.1-SNAPSHOT</mall-security.version>
         <mybatis-generator-core.version>1.3.3</mybatis-generator-core.version>
+        <fastjson.version>1.2.58</fastjson.version>
     </properties>
 
 
     <modules>
         <module>common</module>
-<!--        <module>mbg</module>-->
+        <module>mbg</module>
 <!--        <module>security</module>-->
 <!--        <module>demo</module>-->
         <module>admin</module>
@@ -94,8 +95,8 @@
             </dependency>
             <!--mall安全模块-->
             <dependency>
-                <groupId>com.macro.mall</groupId>
-                <artifactId>mall-security</artifactId>
+                <groupId>com.leapstack.wanglong</groupId>
+                <artifactId>security</artifactId>
                 <version>${mall-security.version}</version>
             </dependency>
             <!--MyBatis分页插件starter-->
@@ -175,6 +176,8 @@
                 <artifactId>logstash-logback-encoder</artifactId>
                 <version>${logstash-logback.version}</version>
             </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
